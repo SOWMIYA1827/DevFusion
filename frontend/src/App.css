@@ -1,0 +1,40 @@
+.main-content-flow {
+  flex: 1;
+  width: 100%;
+}
+
+/* User identity indicators in Nav */
+.nav-user-indicator {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.user-name-badge {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background-color: var(--bg-input);
+  padding: 0.35rem 0.75rem;
+  border-radius: 50px;
+  border: 1px solid var(--border-color);
+}
+
+/* Theme toggle button styling */
+.theme-toggle-btn {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.theme-toggle-btn:hover {
+  background-color: var(--bg-input);
+  color: var(--text-primary);
+  border-color: var(--text-muted);
+}
