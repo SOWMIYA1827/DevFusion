@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DevFusionAPI",
+    "\\DevFusionAPI\\Helpers",
+    "\\DevFusionAPI\\Middleware",
+    "\\DevFusionAPI\\Models",
+    "\\DevFusionAPI\\obj",
+    "\\DevFusionAPI\\Properties",
+    "\\DevFusionAPI\\Repositories",
+    "\\DevFusionAPI\\Services"
+  ],
+  "SelectedNode": "\\DevFusionAPI",
+  "PreviewInSolutionExplorer": false
+}

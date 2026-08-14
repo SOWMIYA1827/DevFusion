@@ -1,0 +1,30 @@
+# Ignore the old duplicate folder
+DevFusionAPI/
+
+# Ignore Visual Studio & Rider artifacts
+Backend/.vs/
+Backend/[Dd]ebug/
+Backend/[Rr]elease/
+Backend/x64/
+Backend/x86/
+Backend/bld/
+Backend/[Bb]in/
+Backend/[Oo]bj/
+Backend/*.user
+Backend/*.userosscache
+Backend/*.sln.docstates
+
+# Ignore compiler / build output
+Backend/bin/
+Backend/obj/
+
+# Ignore logs
+Backend/lt-backend.log
+Backend/lt-frontend.log
+Backend/build_output.txt
+Backend/ef_output.txt
+
+# Ignore local configuration files
+Backend/appsettings.Development.json
+Backend/secrets.json
+Backend/.env
